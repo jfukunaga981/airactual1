@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Lato&display=swap');
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .font-exo {
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
