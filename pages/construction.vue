@@ -6,41 +6,35 @@
 
     <!-- Contact Content Overlay -->
     <!-- Overlay container for the main content, positioned relative to the background -->
-    <div class="relative flex flex-col items-center justify-start bg-black bg-opacity-0 pt-20">
+    <div class="relative flex flex-col items-center justify-start bg-black bg-opacity-0 pt-20 pt-[62px]">
       <!-- Padding to avoid overlap with fixed header -->
 
       <!-- Main Content Wrapper -->
       <!-- Wrapper for the content sections with semi-transparent background -->
-      <div class="w-full bg-black bg-opacity-50 mb-20">
-        <div class="max-w-5xl mx-auto bg-black bg-opacity-0 p-8 rounded-lg w-full mx-4 mb-0">
-          
-          <!-- Section 1: Introduction -->
-          <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Left Column: Text Content -->
-            <div class="flex flex-col justify-center p-6">
-              <!-- Heading -->
-              <h1 class="text-4xl font-exo mb-4 italic text-white">DRONE CONSTRUCTION SERVICES</h1>
-              <!-- Description Paragraph -->
-              <p class="text-gray-100">
-                Top-quality imaging and aerial data using advanced drone technology, helping construction companies improve resource management, decision-making, site progress tracking, safety, and cost savings.
+      <div class="header-fullwidth-container">
+        <div class="header-section">
+          <div class="header-section-inner">
+            <div class="header-section-left">
+              <h1 class="header-section-heading">DRONE CONSTRUCTION SERVICES</h1>
+              <p class="section-paragraph">
+                Top-quality imaging and aerial data using advanced drone technology, 
+                helping construction companies improve resource management, decision-making, 
+                site progress tracking, safety, and cost savings.
               </p>
-              <!-- Call-to-Action Button -->
               <div class="mt-5">
                 <NuxtLink
                   to="/contact"
-                  class="text-white bg-gnomon-blue inline-block px-8 py-4 rounded-full font-lato hover:bg-blue-700 transition"
+                  class="header-button"
                 >
                   Get in touch
                 </NuxtLink>
               </div>
             </div>
-            <!-- Right Column: Placeholder for Image or Additional Content -->
-            <div class="flex items-center justify-center pointer-events-auto">
+            <div class="header-section-right">
               <!-- Add your image or other content here -->
               <!-- <img src="path-to-your-image.jpg" alt="Description" class="your-classes" /> -->
             </div>
-          </section>
-
+          </div>
         </div>
       </div>
       

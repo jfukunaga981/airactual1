@@ -11,14 +11,11 @@
 
       <!-- Main Content Wrapper -->
       <!-- Wrapper for the content sections with semi-transparent background -->
-      <div class="w-full bg-black bg-opacity-50">
-        <section class="header-section">
-          
+      <div class="header-fullwidth-container">
+        <div class="header-section">
           <div class="header-section-inner">
-            <div 
-              class="header-section-left"
-            >
-              <h1 class="header-section-heading">Geographic Information Sytems</h1>
+            <div class="header-section-left">
+              <h1 class="header-section-heading">GEOGRAPHIC INFORMATION SYSTEMS</h1>
               <p class="section-paragraph">
                 Turning complex spatial data into clear, actionable insights through 
                 advanced GIS solutions, interactive mapping, and professional 
@@ -38,8 +35,7 @@
               <!-- <img src="path-to-your-image.jpg" alt="Description" class="your-classes" /> -->
             </div>
           </div>
-
-        </section>
+        </div>
       </div>
       
       <!-- Additional Content Sections Wrapper -->

@@ -13,28 +13,18 @@ body {
     font-family: 'Lato', sans-serif;
   }
 
-
-
 /* header two column section */
 
 .header-fullwidth-container {
-  @apply w-full bg-black bg-opacity-50;
+  @apply w-full bg-black bg-opacity-50 mb-20;
 }
 
 .header-section {
-  @apply max-w-5xl mx-auto p-8 w-full mx-4 mb-0;
+  @apply max-w-5xl mx-auto bg-black bg-opacity-0 p-8 rounded-lg w-full mb-0;
 }
 
 .header-section-inner {
   @apply grid grid-cols-1 md:grid-cols-2 gap-8;
-}
-
-.header-section-heading {
-  @apply text-4xl font-exo mb-4 italic text-white;
-}
-
-.header-button {
-  @apply text-white bg-gnomon-blue inline-block px-8 py-4 rounded-full font-lato hover:bg-blue-700 transition;
 }
 
 .header-section-left {
@@ -43,6 +33,14 @@ body {
 
 .header-section-right {
   @apply flex items-center justify-center pointer-events-auto;
+}
+
+.header-section-heading {
+  @apply text-4xl font-exo mb-4 italic text-white;
+}
+
+.header-button {
+  @apply text-white bg-gnomon-blue inline-block px-8 py-4 rounded-full font-lato hover:bg-blue-700 transition;
 }
 
 /* repeatable two column section */
