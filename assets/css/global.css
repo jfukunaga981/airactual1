@@ -12,3 +12,139 @@ body {
   .font-lato {
     font-family: 'Lato', sans-serif;
   }
+
+
+
+/* header two column section */
+
+.header-fullwidth-container {
+  @apply w-full bg-black bg-opacity-50;
+}
+
+.header-section {
+  @apply max-w-5xl mx-auto p-8 w-full mx-4 mb-0;
+}
+
+.header-section-inner {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+}
+
+.header-section-heading {
+  @apply text-4xl font-exo mb-4 italic text-white;
+}
+
+.header-button {
+  @apply text-white bg-gnomon-blue inline-block px-8 py-4 rounded-full font-lato hover:bg-blue-700 transition;
+}
+
+.header-section-left {
+  @apply flex flex-col justify-center p-6;
+}
+
+.header-section-right {
+  @apply flex items-center justify-center pointer-events-auto;
+}
+
+/* repeatable two column section */
+
+.repeatable-section {
+  @apply rounded-lg bg-black bg-opacity-50 mb-10;
+}
+
+.repeatable-section-inner {
+  @apply max-w-screen-xl mx-auto py-[50px] px-[30px] md:py-[50px] md:px-[40px] grid md:grid-cols-2 gap-8;
+}
+
+.two-columns-left {
+  @apply flex flex-col justify-center px-0;
+}
+
+.two-columns-right {
+  @apply flex flex-col justify-center items-center px-0;
+}
+
+.column-heading {
+  @apply text-2xl font-semibold mb-3 text-white;
+}
+
+.column-paragraph {
+  @apply text-gray-200;
+}
+
+.landscape-image {
+  @apply w-full h-auto rounded-lg;
+}
+
+.portrait-image {
+  @apply w-full max-w-[500px] h-auto rounded-lg;
+}
+
+/* main header single column layout */
+
+.main-section-header {
+  @apply mb-10 rounded-lg bg-black bg-opacity-50 p-10 mt-5;
+}
+
+.one-column-section-inner {
+  @apply flex flex-col items-center justify-center text-center px-0;
+}
+
+.section-heading {
+  @apply text-3xl font-exo mb-4 italic text-white;
+}
+
+.section-paragraph {
+  @apply text-gray-200;
+}
+
+/* right column with single YouTube video */
+.column-video {
+ @apply flex items-center justify-center pointer-events-auto;
+}
+
+/* right column with media stacked */
+
+.media-stacked-column {
+  @apply flex flex-col items-center justify-center pointer-events-auto space-y-5;
+}
+
+/* iframe video */
+
+.iframe-video {
+  @apply w-full h-64 md:h-80 lg:h-96 rounded-lg;
+}
+
+/* sketchfab stacked */
+.sketchfab-embed {
+ @apply w-full h-[260px] rounded-lg shadow-lg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* one column section */
+
+.repeatable-section-inner-one-column {
+  @apply max-w-screen-xl mx-auto py-[50px] px-[30px] md:py-[50px] md:px-[40px] flex flex-col gap-8;
+}
+
+.one-column {
+  @apply flex flex-col justify-center px-0;
+}
