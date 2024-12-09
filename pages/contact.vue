@@ -15,11 +15,9 @@
         <div class="header-section">
           <div class="header-section-inner">
             <div class="header-section-left">
-              <h1 class="header-section-heading">GEOGRAPHIC INFORMATION SYSTEMS</h1>
+              <h1 class="header-section-heading">CONTACT US</h1>
               <p class="section-paragraph">
-                Turning complex spatial data into clear, actionable insights through 
-                advanced GIS solutions, interactive mapping, and professional 
-                cartographic design.
+                Discover how we can elevate your project
               </p>
             </div>
             <div class="header-section-right">
@@ -33,15 +31,6 @@
       <!-- Additional Content Sections Wrapper -->
       <div class="bg-black bg-opacity-0 p-8 rounded-lg max-w-5xl w-full mx-4">
 
-        <!-- Section 2: Overview -->
-        <header class="text-left">
-          <!-- Section Heading -->
-          <h2 class="text-4xl font-exo mb-8 italic text-white text-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
-            Contact
-          </h2>
-          <!-- Optional Subheader Content -->
-        </header>
-
         <!-- Repeatable Section Template -->
         <section class="repeatable-section">
           <div 
@@ -49,55 +38,30 @@
           >
             <!-- Left Column -->
             <div class="two-columns-left">
-              <h3 class="column-heading">Get in touch</h3>
+              <h3 class="column-heading">Get in touch!</h3>
               <p class="column-paragraph">
-                Reach out by phone, text, or email. We're standing by to help you with 
-                service inquiries, customer service, or just general questions.
-              </p>
-            </div>
-            <!-- Right Column -->
-            <div class="two-columns-right">
-              <h3 class="text-2xl font-semibold mb-3 text-white">Call Us</h3>
-              <p class="text-gray-200">
+                Professionals across a wide range of industries rely on GIS 
+                and drone services to transform complex spatial data into clear, 
+                actionable insights. Whether you aim to visualize intricate 
+                landscapes, enhance operational efficiency, or gain better 
+                decision-making support, we’re here to help.<br><br>
+                Reach out to discuss how our solutions can meet your unique needs.
+              </p><br>
+              <h3 class="column-heading">Call Us</h3>
+              <p class="column-paragraph">
                 7 a.m.–5 p.m. (PT), Monday–Friday<br>
                 <a href="tel:+19252898382" class="text-blue-400 hover:underline">+1-925-289-8382</a><br><br>
               </p>
-              <h3 class="text-2xl font-semibold mb-3 text-white">Email Us</h3>
-              <p class="text-gray-200 break-words">
+              <h3 class="column-heading">Email Us</h3>
+              <p class="column-paragraph">
                 Inquiries by email<br>
                 <a href="mailto:jeremy@airactual.com?subject=Inquiry" class="text-blue-400 hover:underline break-all">info@airactual.com</a>
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Repeatable Section Template -->
-        <section class="repeatable-section">
-          <div 
-            class="repeatable-section-inner"
-          >
-            <!-- Left Column -->
-            <div class="two-columns-left">
-              <h3 class="column-heading">Geodatabase Design & <br>Relationship Management</h3>
-              <p class="column-paragraph">
-                Efficient geospatial data organization and relationships 
-                are achieved through the development and management of 
-                geodatabases. Services include creating structured 
-                attribute tables, establishing robust relationships 
-                between feature classes and associated tables, and 
-                updating metadata to maintain data integrity. Tools 
-                like ArcGIS Pro are utilized to optimize data 
-                structures, enhancing geospatial analysis and 
-                streamlining project workflows. Whether designing 
-                new geodatabases or enhancing existing data, 
-                solutions ensure readiness for accurate and 
-                effective decision-making.
               </p>
             </div>
             <!-- Right Column -->
             <div class="two-columns-right">
               <img
-                src="/img/data_structure_and_relationships.jpg"
+                src="/img/bay_area_vector-01.png"
                 alt="Geodatabase Design & Relationship Management"
                 class="landscape-image"
                 loading="lazy"
