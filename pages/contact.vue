@@ -29,7 +29,7 @@
       </div>
       
       <!-- Additional Content Sections Wrapper -->
-      <div class="bg-black bg-opacity-0 p-8 rounded-lg max-w-5xl w-full mx-4">
+      <div class="content-section">
 
         <!-- Repeatable Section Template -->
         <section class="repeatable-section">

@@ -74,13 +74,23 @@ function createGround() {
 
 // Function to update the GUI position based on screen width
 function updateGUIPosition() {
-  if (window.innerWidth <= 768) {
-    // For screens 768px or smaller
-    gui.domElement.style.top = '350px';
-    gui.domElement.style.bottom = 'auto';
-    gui.domElement.style.right = '10px';
+  const isMobile = window.innerWidth <= 768; // Checks if this is considered 'mobile'
+  const isLandscape = window.innerWidth > window.innerHeight; // Checks if device is in landscape mode
+
+  if (isMobile) {
+    if (isLandscape) {
+      // Mobile Landscape
+      gui.domElement.style.top = 'auto';
+      gui.domElement.style.right = '10px';
+      gui.domElement.style.bottom = '10px';
+    } else {
+      // Mobile Portrait
+      gui.domElement.style.top = 'auto';
+      gui.domElement.style.right = '10px';
+      gui.domElement.style.bottom = '25px';
+    }
   } else {
-    // For larger screens
+    // Larger screens
     gui.domElement.style.top = '100px';
     gui.domElement.style.bottom = 'auto';
     gui.domElement.style.right = '25px';

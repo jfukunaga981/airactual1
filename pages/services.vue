@@ -39,9 +39,10 @@
       </div>
       
       <!-- Additional Content Sections Wrapper -->
-      <div class="bg-black bg-opacity-0 p-8 rounded-lg max-w-5xl w-full mx-4">
+      <div class="content-section">
 
-        <section class="main-section-header">
+        <!-- Repeatable Section Template -->
+        <section class="repeatable-section">
           <div class="one-column-section-inner">
             <h3 class="section-heading">Transforming Data Into Insightful Maps and Solutions</h3>
             <p class="section-paragraph">
@@ -50,10 +51,6 @@
               help you make informed decisions and communicate effectively.
             </p>
           </div>
-        </section>
-
-        <!-- Repeatable Section Template -->
-        <section class="repeatable-section">
           <div 
             class="repeatable-section-inner"
           >

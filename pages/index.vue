@@ -45,12 +45,12 @@
     </div>
  
     <!-- New Section: CONTACT US with Three Columns and Two Rows -->
-    <div class="relative py-32 bg-black bg-opacity-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-xl">
-          <header class="text-center mb-12 max-w-2xl mx-auto">
-            <h1 class="text-4xl font-exo mb-4 italic text-neutral-100">Aerial and Geospatial Services that Enhance Your Projects</h1>
-            <p class="text-neutral-100">
+    <div class="gp-section">
+      <div class="feature-section">
+        <div class="feature-section-inner">
+          <header class="section-header">
+            <h1 class="section-heading">Aerial and Geospatial Services that Enhance Your Projects</h1>
+            <p class="column-paragraph">
               From 4K photography and 360-degree panoramas to precise 
               mapping and GIS integration, our drone technology delivers 
               unique perspectives and actionable insights. Make your 
@@ -60,44 +60,44 @@
           </header>
           <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- First Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">📸 Aerial Photography & Videography</h3>
-              <p class="text-gray-200">
+            <div class="feature-card">
+              <h3 class="column-heading">📸 Aerial Photography & Videography</h3>
+              <p class="column-paragraph">
                 Capture breathtaking aerial views with high-resolution images and 4K video. Whether it's for real estate, events, or promotional content, our drone services provide a unique vantage point that sets your visuals apart.<br>
               </p>
             </div>
             <!-- Second Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">🌐 360-Degree Panoramas</h3>
-              <p class="text-gray-200 break-words">
+            <div class="feature-card">
+              <h3 class="column-heading">🌐 360-Degree Panoramas</h3>
+              <p class="column-paragraph">
                 Immerse your clients in a complete visual experience with 360-degree panoramic photography. Crafted with the highest quality standards, our 360-degree photography ensures stunning clarity and exceptional detail that set your projects apart.<br>
               </p>
             </div>
             <!-- Third Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">🗺️ Photogrammetry & Mapping</h3>
-              <p class="text-gray-200">
+            <div class="feature-card">
+              <h3 class="column-heading">🗺️ Photogrammetry & Mapping</h3>
+              <p class="column-paragraph">
                 Transform aerial images into detailed 2D maps and 3D models with our photogrammetry services. Ideal for construction, land surveying, and environmental monitoring, our precision mapping helps you see the big picture in incredible detail.<br>
               </p>
             </div>
             <!-- Fourth Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">🌍 GIS Integration</h3>
-              <p class="text-gray-200">
+            <div class="feature-card">
+              <h3 class="column-heading">🌍 GIS Integration</h3>
+              <p class="column-paragraph">
                 Leverage the power of GIS to analyze and visualize geospatial data. Our GIS services offer comprehensive solutions for urban planning, environmental management, and infrastructure development. We turn complex data into actionable insights.<br>
               </p>
             </div>
             <!-- Fifth Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">🛠️ Inspections & Surveys</h3>
-              <p class="text-gray-200">
+            <div class="feature-card">
+              <h3 class="column-heading">🛠️ Inspections & Surveys</h3>
+              <p class="column-paragraph">
                 Conduct safe and efficient inspections of hard-to-reach areas. Our drone inspections are perfect for infrastructure, agriculture, and environmental monitoring, providing you with real-time data and high-quality imagery.<br>
               </p>
             </div>
             <!-- Sixth Column -->
-            <div class="flex flex-col justify-center p-6 rounded-lg bg-black bg-opacity-50">
-              <h3 class="text-2xl font-semibold mb-3 text-white">🏗️ Construction Services</h3>
-              <p class="text-gray-200">
+            <div class="feature-card">
+              <h3 class="column-heading">🏗️ Construction Services</h3>
+              <p class="column-paragraph">
                 Track your construction project's progress with regular drone imaging. Our weekly or monthly services provide aerial videos, stills, and data, helping you monitor timelines and budgets while enhancing marketing and showcasing project management.<br>
               </p>
             </div>
